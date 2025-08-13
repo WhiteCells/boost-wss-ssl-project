@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/cells/dev/cpp-project/boost-wss-ssl-project/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

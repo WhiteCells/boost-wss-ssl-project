@@ -1,0 +1,4 @@
+/home/cells/dev/cpp-project/boost-wss-ssl-project/build/CMakeFiles/server.dir
+/home/cells/dev/cpp-project/boost-wss-ssl-project/build/CMakeFiles/client.dir
+/home/cells/dev/cpp-project/boost-wss-ssl-project/build/CMakeFiles/edit_cache.dir
+/home/cells/dev/cpp-project/boost-wss-ssl-project/build/CMakeFiles/rebuild_cache.dir
