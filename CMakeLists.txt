@@ -5,18 +5,14 @@ project(boost-wss-ssl-project VERSION 1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CLIENT_SRC
-    client.cc
+set(SRC
+    main.cc
 )
 
-set(SERVER_SRC
-    server.cc
-)
+find_package(OpenSSL REQUIRED)
 
 include_directories(${Boost_INCLUDE_DIRS})
 
-link_libraries(${Boost_LIBRARIES})
+link_libraries(${Boost_LIBRARIES} OpenSSL::SSL OpenSSL::Crypto)
 
-add_executable(server ${SERVER_SRC})
-
-add_executable(client ${CLIENT_SRC})
+add_executable(${PROJECT_NAME} ${SRC})
